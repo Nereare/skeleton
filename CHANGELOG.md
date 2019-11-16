@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_REPO}}) Changelog
+# [Skeleton out of the Closet](https://github.com/Nereare/skeleton-out-of-closet) Changelog
 
 All notable changes to this project will be documented in this file.
 

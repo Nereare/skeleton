@@ -1,6 +1,6 @@
 {
-  "name": "{{PKG_NAME}}",
-  "description": "{{PKG_DESC}}",
+  "name": "skeleton-out-of-closet",
+  "description": "A port of DHG's Skeleton CSS framework, with more space for customization.",
   "version": "0.1.0",
   "maintainers": [
     {
@@ -9,8 +9,22 @@
       "web": "https://nereare.github.io/"
     }
   ],
+  "author": "Igor Padoim <igorpadoim@gmail.com>",
   "bugs": {
-    "web": "https://github.com/{{PKG_REPO}}/issues"
+    "web": "https://github.com/Nereare/skeleton-out-of-closet/issues"
   },
-  "license": "MIT"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "skeleton.css",
+  "files": [
+    "*.scss",
+    "*.css",
+    "*.css.map"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nereare/skeleton-out-of-closet.git"
+  },
+  "scripts": {
+    "prepack": "sass --style=compressed skeleton.scss skeleton.css"
+  }
 }
