@@ -21,7 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * SCSS Modules:
   - Base;
   - Buttons;
+  - Code;
   - Forms;
   - Grids;
   - Lists;
+  - Tables;
   - Typography.
