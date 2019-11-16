@@ -37,5 +37,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Typography;
   - Utilities.
 
-  [Unreleased]: https://github.com/Nereare/skeleton-out-of-closet/compare/v0.10.3...HEAD
-  [0.10.3]: https://github.com/Nereare/skeleton-out-of-closet/releases/tag/v0.10.3
+[Unreleased]: https://github.com/Nereare/skeleton-out-of-closet/compare/v0.10.4...HEAD
+[0.10.4]: https://github.com/Nereare/skeleton-out-of-closet/compare/v0.10.3...v0.10.4
+[0.10.3]: https://github.com/Nereare/skeleton-out-of-closet/releases/tag/v0.10.3
