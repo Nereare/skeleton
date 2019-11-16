@@ -1,5 +1,6 @@
-# Created by https://www.gitignore.io/api/osx,node,code,linux,grunt,macos,dropbox,windows
-# Edit at https://www.gitignore.io/?templates=osx,node,code,linux,grunt,macos,dropbox,windows
+
+# Created by https://www.gitignore.io/api/osx,node,code,sass,linux,macos,dropbox,windows
+# Edit at https://www.gitignore.io/?templates=osx,node,code,sass,linux,macos,dropbox,windows
 
 ### Code ###
 .vscode/*
@@ -13,13 +14,6 @@
 .dropbox
 .dropbox.attr
 .dropbox.cache
-
-### grunt ###
-# Grunt usually compiles files inside this directory
-dist/
-
-# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
-.tmp/
 
 ### Linux ###
 *~
@@ -168,6 +162,13 @@ public/
 
 # Directories potentially created on remote AFP share
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+*.css
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -194,4 +195,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/osx,node,code,linux,grunt,macos,dropbox,windows
+# End of https://www.gitignore.io/api/osx,node,code,sass,linux,macos,dropbox,windows
