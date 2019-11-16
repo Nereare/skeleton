@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.3] - `2019-11-16`
+
 ### Added
 * Code of Conduct from [Contributor Covenant v1.4.1](https://www.contributor-covenant.org/).
 * [License](LICENSE.md).
@@ -28,3 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Tables;
   - Typography;
   - Utilities.
+
+  [Unreleased]: https://github.com/Nereare/skeleton-out-of-closet/compare/v0.10.3...HEAD
+  [0.10.3]: https://github.com/Nereare/skeleton-out-of-closet/releases/tag/v0.10.3
