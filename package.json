@@ -17,14 +17,12 @@
   "main": "skeleton.css",
   "files": [
     "*.scss",
+    "*.min.css",
     "*.css",
     "*.css.map"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Nereare/skeleton-out-of-closet.git"
-  },
-  "scripts": {
-    "prepack": "sass --style=compressed skeleton.scss skeleton.css"
   }
 }
