@@ -1,0 +1,25 @@
+// Set these values when importing this module file, if you wish.
+// See how to: https://sass-lang.com/documentation/at-rules/use#configuring-modules
+$font: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$color: #212121 !default;
+$background: #f5f5f5 !default;
+
+$link-base: #c2185b !default;
+$link-active: #e91e63 !default;
+
+// HTML is set to 62.5% so that all the REM measurements
+// throughout Skeleton are based on 10px sizing.
+// Which means: 1.5rem = 15px
+html { font-size: 62.5%; }
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: $font;
+  color: $color;
+  background-color: $background;
+}
+
+a, a:link, a:visited { color: $link-base; }
+a:hover, a:active { color: $link-active; }

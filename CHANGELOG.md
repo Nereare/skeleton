@@ -18,4 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Pull request.
 * ReadMe file.
 * Changelog file.
-* ...
+* SCSS Modules:
+  - Base;
+  - Buttons;
+  - Forms;
+  - Grids;
+  - Typography.

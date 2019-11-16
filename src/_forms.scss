@@ -1,0 +1,81 @@
+$form-bg: transparent !default;
+$color: #212121 !default;
+$color-lighter: #616161 !default;
+$color-highlight: #e91e63 !default;
+
+@mixin skeleton-box {
+  border: 1px solid $color;
+  margin: .5em;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+input[type="email"], input[type="number"],
+input[type="search"], input[type="text"],
+input[type="tel"], input[type="url"],
+input[type="password"], textarea, select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: $form-bg;
+  border: 1px solid $color;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+
+  &:focus {
+    border: 1px solid $color-lighter;
+    outline: 0;
+  }
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+label, legend {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+  visibility: hidden;
+  display: none;
+}
+label {
+  color: $color;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+}
+
+input[type=checkbox] + label {
+  @include skeleton-box();
+  padding: 0 30px;
+  display: inline-block;
+}
+
+input[type=radio] + label { padding: 1em 3em; }
+input[type=checkbox]:checked + label,
+input[type=radio]:checked + label{
+  color: $color-lighter;
+  background: $color-highlight;
+}
+.radio-group {
+  @include skeleton-box();
+  display: inline-block;
+}

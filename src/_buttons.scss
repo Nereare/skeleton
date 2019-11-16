@@ -1,0 +1,50 @@
+$time: 0.3s !default;
+
+$background: transparent !default;
+$color: #212121 !default;
+$color-lighter: #616161 !default;
+
+$primary-bg: #e91e63 !default;
+$primary-active: #f50057 !default;
+$primary-color: #f48fb1 !default;
+
+.button, button, input[type="submit"],
+input[type="reset"], input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: $color;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: $background;
+  border-radius: 4px;
+  border: 1px solid $color;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: color $time;
+  &:hover, &:focus {
+    color: $color-lighter;
+    border-color: $color-lighter;
+    outline: 0;
+  }
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: $primary-color;
+  background-color: $primary-bg;
+  border-color: $primary-color;
+  transition: background-color $time;
+  &:hover, &:focus {
+    background-color: $primary-active;
+  }
+}
