@@ -2,6 +2,7 @@
 // See how to: https://sass-lang.com/documentation/at-rules/use#configuring-modules
 $font: "Ubuntu", Helvetica, Arial, sans-serif !default;
 $color: #212121 !default;
+$color-light: #bdbdbd !default;
 $background: #f5f5f5 !default;
 
 $link-base: #c2185b !default;
@@ -23,6 +24,29 @@ body {
 
 a, a:link, a:visited { color: $link-base; }
 a:hover, a:active { color: $link-active; }
+
+hr {
+  text-align: center;
+  line-height: 1px;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  height: 1px; // Gap between the lines
+  font-size: 1rem;
+  border-width: 1px 0; // Top and bottom borders
+  border-style: solid;
+  border-color: $color-light;
+  overflow: visible;
+  box-sizing: content-box;
+  &::after {
+    content: "§";
+    display: inline;
+    color: $color-light;
+    background-color: $background; // Same as background color
+    padding: 0 0.5em; //S ize of background color knockout
+  }
+}
+
+// Spacings
 
 button, .button {
   margin-bottom: 1rem;
