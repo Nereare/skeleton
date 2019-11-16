@@ -196,3 +196,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,node,code,sass,linux,macos,dropbox,windows
+
+*.zip
+*.tar
+*.bz2
+*.bzip2
+*.gz
+*.gzip

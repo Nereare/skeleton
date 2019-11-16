@@ -1,7 +1,7 @@
 {
   "name": "skeleton-out-of-closet",
   "description": "A port of DHG's Skeleton CSS framework, with more space for customization.",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "maintainers": [
     {
       "name": "Igor Padoim",
@@ -16,6 +16,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "skeleton.css",
   "files": [
+    "src/*.scss",
     "*.scss",
     "*.min.css",
     "*.css",

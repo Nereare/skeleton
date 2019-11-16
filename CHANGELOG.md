@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.4] - `2019-11-16`
+
+### Fixed
+* Include `src` folder and its files into the published package.
+* Ignore compressed files.
+
 ## [0.10.3] - `2019-11-16`
 
 ### Added
