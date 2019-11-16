@@ -5,6 +5,7 @@
 # Skeleton out of the Closet
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/skeleton-out-of-closet)](https://github.com/Nereare/skeleton-out-of-closet)
+[![npm](https://img.shields.io/npm/v/skeleton-out-of-closet)](https://www.npmjs.com/package/skeleton-out-of-closet)
 [![License](https://img.shields.io/badge/license-Hippocratic%20License%20v1.2-red)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
