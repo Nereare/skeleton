@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Rainbow skull getting out of a coffin" width="128" height="128" src="https://i.imgur.com/ZuTXZRn.png">
+</p>
+
 # Skeleton out of the Closet
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/skeleton-out-of-closet)](https://github.com/Nereare/skeleton-out-of-closet)
@@ -39,3 +43,8 @@ This project uses [SemVer](http://semver.org/) for versioning. For the versions 
 [![Hippocratic License](https://i.imgur.com/DEKS3nm.png)](LICENSE.md)
 
 This project is available under the [Hippocratic License](https://firstdonoharm.dev/).
+
+### Logo Sources
+
+* [Coffin SVG Vector](https://www.svgrepo.com/svg/204125/coffin), distributed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) License.
+* [Man Skull SVG Vector](https://www.svgrepo.com/svg/13774/man-skull), distributed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) License.
